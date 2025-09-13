@@ -1,49 +1,91 @@
-🎙️ Assistant Vocal Python
+# 🎙️ Python Voice Assistant
 
-Un assistant vocal en français développé en Python, capable d'écouter la voix de l'utilisateur, de répondre avec une voix naturelle, et d'exécuter diverses commandes sur l'ordinateur et sur internet.
+A French-speaking voice assistant developed in Python, capable of listening to user commands, responding with a natural voice, and executing various actions on your computer and online.
 
-📝 Description
+---
 
-Cet assistant vocal permet de :
+<p align="center">
+  <!-- Alternative GIFs for microphone and AI visuals -->
+  <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="120" alt="Talking Robot"/>
+  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="120" alt="Microphone Animation"/>
+  <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="120" alt="AI Animation"/>
+</p>
 
-Écouter et comprendre les commandes vocales en français.
+---
 
-Répondre avec une voix humaine via gTTS et Pygame.
+## 📝 Description
 
-Ouvrir des applications installées sur l’ordinateur (Chrome, Word, Excel, Spotify, Discord…).
+This assistant allows you to:
 
-Donner l’heure et la date.
+- 🎤 Listen to and understand voice commands in French.
+- 🗣️ Respond with a human-like voice using gTTS and Pygame.
+- 🖥️ Open installed applications (Chrome, Word, Excel, Spotify, Discord, etc.).
+- ⏰ Tell the current time and date.
+- 🌐 Search for information on Google or play music on YouTube.
+- 🖱️ Shut down or restart your computer.
+- ⚡ Respond to custom commands.
 
-Chercher des informations sur Google ou jouer de la musique sur YouTube.
+---
 
-Éteindre ou redémarrer l’ordinateur.
+## ⚡ Key Features
 
-Répondre à des commandes personnalisées.
+- **Voice Recognition:**  
+  French speech recognition powered by `speech_recognition`.
 
-⚡ Fonctionnalités principales
+- **Voice Synthesis:**  
+  Human-like responses using `gTTS` and playback via `pygame`.
 
-Écoute vocale :
+- **Application Launch:**  
+  Open popular apps like Chrome, Notepad, Word, Excel, Spotify, Discord.
 
-Reconnaissance vocale en français via speech_recognition.
+- **Internet & Multimedia:**  
+  Google search (`pywhatkit.search`)  
+  Play music on YouTube (`pywhatkit.playonyt`)
 
-Synthèse vocale :
+- **System Commands:**  
+  Shut down or restart your computer.
 
-Réponses avec voix humaine grâce à gTTS et lecture audio via pygame.
+- **Natural Interaction:**  
+  Varied and random messages for responses and errors to make interaction more engaging.
 
-Ouverture d’applications :
+---
 
-Chrome, Notepad, Word, Excel, Spotify, Discord.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Deep%20Learning-00C853?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Speech%20Recognition-00897B?style=for-the-badge&logo=google&logoColor=white"/>
+</p>
 
-Internet & Multimédia :
+---
 
-Recherche sur Google (pywhatkit.search)
+## 🚀 Getting Started
 
-Lecture de musique sur YouTube (pywhatkit.playonyt)
+```bash
+git clone https://github.com/firecold944/assistant-vocal-gTTs.git
+cd assistant-vocal-gTTs
+pip install -r requirements.txt
+python assistant.py
+```
 
-Commandes système :
+---
 
-Éteindre ou redémarrer l’ordinateur.
+## 📚 Example Commands
 
-Interaction naturelle :
+- *"Ouvre Chrome"*  
+- *"Quelle heure est-il ?"*
+- *"Recherche Python sur Google"*  
+- *"Joue de la musique sur YouTube"*  
+- *"Éteins l’ordinateur"*
 
-Messages variés et aléatoires pour répondre aux commandes ou aux erreurs.
+---
+
+## 🌟 Author
+
+- [firecold944](https://github.com/firecold944)
+
+---
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1800&color=FFB900&center=true&vCenter=true&multiline=true&width=700&lines=Say+Hello+to+your+Python+Voice+Assistant!;AI-powered+automation,+just+by+speaking!+🎤🤖" alt="Typing SVG animated" />
+</p>
